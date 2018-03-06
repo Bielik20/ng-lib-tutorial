@@ -1,0 +1,29 @@
+{
+  "name": "ng-test-lib",
+  "description": "Demo package to learn how to create angular npm modules",
+  "version": "1.0.0",
+  "author": "Damian Bielecki",
+  "license": "MIT",
+  "keywords": [
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bielik20/ng-lib-tutorial.git"
+  },
+  "homepage": "https://github.com/Bielik20/ng-lib-tutorial",
+  "bugs": {
+    "url": "https://github.com/Bielik20/ng-lib-tutorial/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../dist/ng-test-lib",
+    "lib": {
+      "entryFile": "public_api.ts"
+    }
+  }
+}
